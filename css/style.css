@@ -52,7 +52,7 @@ ul li a {
   box-shadow: -20px 20px 10px rgba(0, 0, 0, 0.5);
 }
 
-ul li a:before {
+ul li a::before {
   content: "";
   position: absolute;
   top: 10px;
@@ -62,4 +62,16 @@ ul li a:before {
   background: #b1b1b1;
   transform: 0.5s;
   transform: rotate(0deg) skewY(-45deg);
+}
+
+ul li a::after {
+  content: "";
+  position: absolute;
+  bottom: -20px;
+  left: -10px;
+  height: 20px;
+  width: 100%;
+  background: #b1b1b1;
+  transform: 0.5s;
+  transform: rotate(0deg) skewX(-45deg);
 }
