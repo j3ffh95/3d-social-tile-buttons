@@ -75,3 +75,8 @@ ul li a::after {
   transform: 0.5s;
   transform: rotate(0deg) skewX(-45deg);
 }
+
+ul li a:hover {
+  transform: rotate(-30deg) skew(25deg) translate(20px, -15px);
+  box-shadow: -50px 50px 50px rgba(0, 0, 0, 0.5);
+}
