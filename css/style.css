@@ -27,3 +27,13 @@ ul li a .fab {
   transition: 0.5s;
   padding-right: 14px;
 }
+
+ul li a span {
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 30px;
+  color: #262626;
+  letter-spacing: 4px;
+  transition: 0.5s;
+}
