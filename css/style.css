@@ -51,3 +51,15 @@ ul li a {
   transition: 0.5s;
   box-shadow: -20px 20px 10px rgba(0, 0, 0, 0.5);
 }
+
+ul li a:before {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: -20px;
+  height: 100%;
+  width: 20px;
+  background: #b1b1b1;
+  transform: 0.5s;
+  transform: rotate(0deg) skewY(-45deg);
+}
