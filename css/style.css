@@ -112,3 +112,15 @@ ul li:hover:nth-child(2) a::before {
 ul li:hover:nth-child(2) a::after {
   background: #53b9e0;
 }
+
+ul li:hover:nth-child(3) a {
+  background: #dd4b39;
+}
+
+ul li:hover:nth-child(3) a::before {
+  background: #b33a2b;
+}
+
+ul li:hover:nth-child(3) a::after {
+  background: #e66a5a;
+}
